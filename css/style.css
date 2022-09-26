@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+
+@font-face {
+   font-family: larsseit;
+   src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-stile: normal;
+   
+} 
+@font-face {
+   font-family: larsseit;
+   src: url("../fonts/Larsseit.woff2") format("woff2"),url("../fonts/Larsseit.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+
+}
+@font-face{
+   font-family: lato;
+   src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face{
+   font-family: lato;
+   src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+}
+
+body{
+   font-family: larsseit;
+   font-weight: 700;
+}
+.title{
+   font-family: lato;
+   font-weight: 400;
+   letter-spacing: 10px;
+}
+#top{
+   color: rgba(255, 0, 0, 0.25);
+   text-align: center;
+   text-decoration: line-through;
+}
+.text1{
+   color: blue;
+   text-align: justify;
+   text-decoration: underline;
+   text-transform: capitalize;
+   text-indent: 40px;
+   white-space: nowrap;
+}
+.text2{
+   padding: 30px 30px 30px 30px ;
+   text-indent: 40px;
+   color: aqua;
+   text-shadow: 5px 5px 5px red, 15px 15px 15px rgb(0, 8, 255)
+
+   
+}
+.kirilica{
+   text-decoration: overline;
+   text-transform: uppercase;
+   line-height: 3;
+   word-spacing: 20px;
+   text-indent: 20px;
+
+   
+}
+.block{
+   background-color: lime;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+}  
+.inline{
+   background-color: magenta;
+  margin: 100px;
+}
+.bock{
+   background-color: blue;
+   margin: 20px;
+}
+.sock{
+   background-color: darkgoldenrod;
+   width: 300px;
+   padding: 20px;
+}
